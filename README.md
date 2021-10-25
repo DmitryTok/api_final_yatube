@@ -4,52 +4,48 @@
 
 Добро пожаловать в проект api_yatube! Это сервис, позволяющий делать HTTP запросы к базе данных сервиса блогов "Yatube" через интерфейс REST API.
 Реализована возможность создавать, изменять, просматривать записи и комментарии к ним разных авторов, а так же подписываться на авторов и просматривать группы, в которых собраны посты определённой тематики.
-
-**Как запустить проект:**
------
+### Как запустить проект:
 
 Клонировать репозиторий и перейти в него в командной строке:
 
-.. code-block:: text
+```
+git clone https://github.com/DmitryTok/api_yatube_final.git
+```
 
- git clone https://github.com/RWSNTi/api_final_yatube.git
-
-Перейти в созданный репозиторий:
-
-.. code-block:: text
-
- cd api_final_yatube
+```
+cd api_yatube_final
+```
 
 Cоздать и активировать виртуальное окружение:
 
-.. code-block:: text
+```
+python3 -m venv venv
+```
 
- python -m venv venv
- source venv/scripts/activate
-
-Обновить установщик расширений pip
-
-.. code-block:: text
-
- python -m pip install --upgrade pip
+```
+source venv/Scripts/activate
+```
 
 Установить зависимости из файла requirements.txt:
 
-.. code-block:: text
+```
+python3 -m pip install --upgrade pip
+```
 
- pip install -r requirements.txt
- 
-Выполнить миграции и собрать файлы статики:
+```
+pip install -r requirements.txt
+```
 
-.. code-block:: text
+Выполнить миграции:
 
- python manage.py migrate
- python manage.py collectstatic
+```
+python3 manage.py migrate
+```
 
 Запустить проект:
 
-.. code-block:: text
-
- python manage.py runserver
+```
+python3 manage.py runserver
+```
 
 **Документация с примерами запросов и ответов будет доступна после развёртывания и запуска проекта по ссылке http://127.0.0.1:8000/redoc**
