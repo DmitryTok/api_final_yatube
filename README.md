@@ -1,23 +1,23 @@
 # api_final
 api final
-API для проекта социальной сети YaTube
+API for the YaTube social network project
 
-В рамках этого API можно:
-Получать все посты с возможностью фильтрации по группе
-Создавать, редактировать или удалять собственные посты
-Комментировать другие посты или смотреть комментарии определенного поста
-Создавать группы для постов
-Подписываться на понравившегося автора
-Посмотреть все подписки, также возможен поиск подписок конкретного пользователя
-Выполнить аутентификацию по JWT-токену
+Within this API, you can:
+Get all posts with the ability to filter by group
+Create, edit or delete your own posts
+Comment on other posts or view comments on a specific post
+Create groups for posts
+Subscribe to your favorite author
+View all subscriptions, it is also possible to search for subscriptions of a specific user
+Authenticate with a JWT token
 =======
 **API_Yatube**
 =====
 
 
-Добро пожаловать в проект api_yatube! Это сервис, позволяющий делать HTTP запросы к базе данных сервиса блогов "Yatube" через интерфейс REST API.
-Реализована возможность создавать, изменять, просматривать записи и комментарии к ним разных авторов, а так же подписываться на авторов и просматривать группы, в которых собраны посты определённой тематики.
-### Как запустить проект:
+Welcome to the api_yatube project! This is a service that allows you to make HTTP requests to the database of the "Yatube" blogging service through the REST API interface.
+Implemented the ability to create, edit, view entries and comments to them by different authors, as well as subscribe to authors and view groups that contain posts on a certain topic.
+### How to run the project:
 
 Clone the repository:
 
