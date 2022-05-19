@@ -19,7 +19,7 @@ API для проекта социальной сети YaTube
 Реализована возможность создавать, изменять, просматривать записи и комментарии к ним разных авторов, а так же подписываться на авторов и просматривать группы, в которых собраны посты определённой тематики.
 ### Как запустить проект:
 
-Клонировать репозиторий и перейти в него в командной строке:
+Clone the repository:
 
 ```
 git clone https://github.com/DmitryTok/api_yatube_final.git
@@ -29,7 +29,7 @@ git clone https://github.com/DmitryTok/api_yatube_final.git
 cd api_yatube_final
 ```
 
-Cоздать и активировать виртуальное окружение:
+Create a visual environment:
 
 ```
 python3 -m venv venv
@@ -39,7 +39,7 @@ python3 -m venv venv
 source venv/Scripts/activate
 ```
 
-Установить зависимости из файла requirements.txt:
+Install requirements.txt:
 
 ```
 python3 -m pip install --upgrade pip
@@ -49,16 +49,16 @@ python3 -m pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
-Выполнить миграции:
+Make mingations:
 
 ```
 python3 manage.py migrate
 ```
 
-Запустить проект:
+Run the project:
 
 ```
 python3 manage.py runserver
 ```
 
-**Документация с примерами запросов и ответов будет доступна после развёртывания и запуска проекта по ссылке http://127.0.0.1:8000/redoc**
+**Doc for requests examples available on link http://127.0.0.1:8000/redoc**
